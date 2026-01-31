@@ -6,8 +6,7 @@
 
 <svg width="900" height="220" viewBox="0 0 900 220">
   <defs>
-
-    <!-- CAPE GRADIENT -->
+ <!-- CAPE GRADIENT -->
     <linearGradient id="capeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#001f3f">
         <animate attributeName="stop-color"
@@ -20,8 +19,7 @@
           dur="6s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
-
-    <!-- GLOW -->
+  <!-- GLOW -->
     <filter id="heroGlow">
       <feGaussianBlur stdDeviation="5" result="blur"/>
       <feMerge>
