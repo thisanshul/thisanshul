@@ -87,25 +87,25 @@
 
 ### 👨‍💻 About Me
 
-📍 Based in **Katni, Madhya Pradesh, India**  
-💻 **Full-Stack JavaScript Developer** with a strong focus on the **MERN stack** — MongoDB · Express.js · React.js · Node.js  
-🎯 Deep understanding of **Object-Oriented Programming (OOP)**, **Database Management Systems (DBMS)** & **Data Structures & Algorithms (DSA)**  
-🎨 Passionate about building **scalable web applications**, crafting **design systems**, and developing **reusable UI component libraries** for seamless user experiences.  
-🚀 Experienced in **frontend architecture, product design, and UI engineering**, with an eye for both **performance and aesthetics**.  
-⚡ Love mentoring aspiring developers and sharing knowledge about **modern JavaScript ecosystems**.
+📍 Indore, Madhya Pradesh, India
+💻 Full-Stack JavaScript Developer | MERN Stack (MongoDB, Express.js, React.js, Node.js)
+🎯 Strong knowledge of OOP, DBMS & DSA
+🎨 Passionate about scalable web apps, UI systems, and reusable components
+🚀 Experience in frontend architecture, UI engineering & product design
+⚡ Enjoy mentoring developers and exploring the modern JavaScript ecosystem
 
 ---
 
 ### 🌐 Connect With Me
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/jagmohan-rai1/">
+  <a href="https://www.linkedin.com/in/anshulrathore3/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://jagmohan123.github.io/New-PortFolio/">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
-  <a href="mailto:jagmohanrai082@gmail.com">
+  <a href="mailto:rathoreanshul33@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
