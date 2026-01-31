@@ -77,10 +77,6 @@
 
 </div>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=2000&color=FFD700&center=true&vCenter=true&width=650&lines=Code+with+the+Strength+of+Superman+⚡;Building+Projects+Like+a+Hero+🦸‍♂️;MERN+Stack+Developer+with+Power+💥" />
-</p>
-
 
 <!-- ✨ Animated Typing Tagline -->
 <p align="center">
