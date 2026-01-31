@@ -1,6 +1,57 @@
 <!-- 🌟 Animated Gradient Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&text=Hello%2C%20I'm%20Anshul%20Rathore%20👋&fontSize=40&fontAlign=50&fontAlignY=35&color=gradient&customColorList=0,2,2,5,30,30,60,90" alt="header" />
+  <img 
+    src="https://capsule-render.vercel.app/api?type=waving&height=260&text=Anshul%20Rathore&fontSize=48&fontAlign=50&fontAlignY=40&animation=twinkling&color=0:0f2027,50:203a43,100:2c5364" 
+    alt="Superman Header"
+  />
+</p>
+
+<div align="center">
+
+<svg width="700" height="120" viewBox="0 0 700 120">
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0000">
+        <animate attributeName="stop-color" values="#ff0000;#ffd700;#0066ff;#ff0000" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#0066ff">
+        <animate attributeName="stop-color" values="#0066ff;#ff0000;#ffd700;#0066ff" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <text x="50%" y="55%" text-anchor="middle"
+        font-size="40"
+        font-family="Segoe UI, sans-serif"
+        fill="url(#heroGradient)"
+        filter="url(#glow)">
+    🚀 Full Stack MERN Developer
+  </text>
+
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    from="0 0"
+    to="0 -6"
+    dur="2s"
+    repeatCount="indefinite"
+    direction="alternate"/>
+</svg>
+
+</div>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=2500&color=FFD700&center=true&vCenter=true&width=600&lines=Code+with+Power+💥;Build+Like+a+Hero+🦸‍♂️;MERN+Stack+Developer+⚡" />
+</p>
+
 </p>
 
 <!-- ✨ Animated Typing Tagline -->
