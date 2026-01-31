@@ -1,51 +1,88 @@
 <p align="center">
-  <img 
-    src="https://capsule-render.vercel.app/api?type=waving&height=260&text=Anshul%20Rathore&fontSize=48&fontAlign=50&fontAlignY=40&animation=twinkling&color=0:0f2027,50:203a43,100:2c5364" 
-    alt="Superman Header"
-  />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=280&text=Hello%2C%20I'm%20Anshul%20Rathore&fontSize=46&fontAlign=50&fontAlignY=38&animation=fadeIn&color=0:001f3f,50:005eff,100:ff0000" />
 </p>
 
 <div align="center">
 
-<svg width="700" height="120" viewBox="0 0 700 120">
+<svg width="900" height="220" viewBox="0 0 900 220">
   <defs>
-    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff0000">
-        <animate attributeName="stop-color" values="#ff0000;#ffd700;#0066ff;#ff0000" dur="4s" repeatCount="indefinite"/>
+
+    <!-- CAPE GRADIENT -->
+    <linearGradient id="capeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#001f3f">
+        <animate attributeName="stop-color"
+          values="#001f3f;#005eff;#ff0000;#001f3f"
+          dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#0066ff">
-        <animate attributeName="stop-color" values="#0066ff;#ff0000;#ffd700;#0066ff" dur="4s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#ff0000">
+        <animate attributeName="stop-color"
+          values="#ff0000;#001f3f;#005eff;#ff0000"
+          dur="6s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+    <!-- GLOW -->
+    <filter id="heroGlow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
       <feMerge>
-        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
   </defs>
 
-  <text x="50%" y="55%" text-anchor="middle"
-        font-size="40"
+  <!-- CAPE WAVES -->
+  <path d="M0 120 Q150 80 300 120 T600 120 T900 120 V220 H0 Z"
+        fill="url(#capeGradient)">
+    <animate attributeName="d"
+      dur="5s"
+      repeatCount="indefinite"
+      values="
+      M0 120 Q150 80 300 120 T600 120 T900 120 V220 H0 Z;
+      M0 120 Q150 140 300 110 T600 130 T900 120 V220 H0 Z;
+      M0 120 Q150 80 300 120 T600 120 T900 120 V220 H0 Z"/>
+  </path>
+
+  <!-- LIGHTNING -->
+  <polyline points="420,30 450,80 430,80 470,150"
+            fill="none"
+            stroke="#ffd700"
+            stroke-width="3"
+            filter="url(#heroGlow)">
+    <animate attributeName="opacity"
+      values="0;1;0"
+      dur="1.2s"
+      repeatCount="indefinite"/>
+  </polyline>
+
+  <!-- HERO TEXT -->
+  <text x="50%" y="55%"
+        text-anchor="middle"
+        font-size="42"
         font-family="Segoe UI, sans-serif"
-        fill="url(#heroGradient)"
-        filter="url(#glow)">
-    🚀 Full Stack MERN Developer
+        fill="#ffd700"
+        filter="url(#heroGlow)">
+    🦸‍♂️ Full Stack MERN Developer
   </text>
 
+  <!-- FLOAT ANIMATION -->
   <animateTransform
     attributeName="transform"
     type="translate"
     from="0 0"
-    to="0 -6"
-    dur="2s"
+    to="0 -8"
+    dur="2.5s"
     repeatCount="indefinite"
     direction="alternate"/>
 </svg>
 
 </div>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=2000&color=FFD700&center=true&vCenter=true&width=650&lines=Code+with+the+Strength+of+Superman+⚡;Building+Projects+Like+a+Hero+🦸‍♂️;MERN+Stack+Developer+with+Power+💥" />
+</p>
+
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=2500&color=FFD700&center=true&vCenter=true&width=600&lines=Code+with+Power+💥;Build+Like+a+Hero+🦸‍♂️;MERN+Stack+Developer+⚡" />
