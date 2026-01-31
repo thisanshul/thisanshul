@@ -1,4 +1,3 @@
-<!-- 🌟 Animated Gradient Header -->
 <p align="center">
   <img 
     src="https://capsule-render.vercel.app/api?type=waving&height=260&text=Anshul%20Rathore&fontSize=48&fontAlign=50&fontAlignY=40&animation=twinkling&color=0:0f2027,50:203a43,100:2c5364" 
@@ -52,7 +51,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=2500&color=FFD700&center=true&vCenter=true&width=600&lines=Code+with+Power+💥;Build+Like+a+Hero+🦸‍♂️;MERN+Stack+Developer+⚡" />
 </p>
 
-</p>
 
 <!-- ✨ Animated Typing Tagline -->
 <p align="center">
